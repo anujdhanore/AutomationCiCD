@@ -16,7 +16,7 @@ import seleniumjavademo.pageobjects.LandingPage;
 
 public class StandAloneTest {
 
-	public String productName = "ZARA COAT 3";
+	public static String productName = "ZARA COAT 3";
 
 	public static void main(String[] args) {
 		
