@@ -16,8 +16,10 @@ import seleniumjavademo.pageobjects.LandingPage;
 
 public class StandAloneTest {
 
+	public String productName = "ZARA COAT 3";
+
 	public static void main(String[] args) {
-		String productName = "ZARA COAT 3";
+		
 		WebDriver driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
